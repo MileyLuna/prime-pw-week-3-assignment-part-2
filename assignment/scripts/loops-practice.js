@@ -34,14 +34,14 @@ for (let i=3; i<6; i++) {
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
 //Need to change i<4 to i<6
-for (let i=2; i<12; i+=2) {
+for (let i=2; i<=10; i+=2) {
   console.log(i);
 }
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
 
-for (let i=5; i>0; i--) {
+for (let i=5; i>=0; i--) {
   console.log(i);
 }
 
@@ -65,11 +65,11 @@ console.log('Some stars using while:');
 
 let i = 0;
 
-while (i = stars.length) {
-  console.log('Stars name using while:', stars);
-  stars++;
-
+while (i < stars.length) {
+  console.log('Names:', stars[i]);
+  i++;
 }
+
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
